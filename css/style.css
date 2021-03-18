@@ -8,3 +8,64 @@
     display: table;
     clear: both;
 }
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+/* header site */
+
+.header_site{
+    background-color: chartreuse;
+    border: 3px solid chartreuse;
+    width: 100%;
+    height: 506px;
+}
+.header_header{
+    background-color: chocolate;
+    width: 100%;
+    height: 150px;
+}
+.content_header{
+    background-color: coral;
+    width: 100%;
+    height: 350px;
+}
+
+/* /header site */
+
+/* main site */
+.main_conteiner{
+    background-color: yellow;
+    border: 3px solid yellow;
+    width: 100%;
+    height: 506px;
+}
+.aside_left, .aside_right{
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+.aside_left{
+    background-color: deeppink;
+}
+.aside_right{
+    background-color: rgb(80, 3, 44);
+}
+.middle_content{
+    background-color: rgb(85, 78, 82);
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+/* /main site */
+
+/* footer site */
+footer{
+    background-color: darksalmon;
+    border: 3px solid darksalmon;
+    width: 100%;
+    height: 56px;
+}
+/* /footer site */
